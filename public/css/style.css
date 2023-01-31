@@ -135,6 +135,11 @@
     padding: 30px;
 }
 
+.footer .content-footer{
+    display: flex;
+    /* flex-direction: row; */
+}
+
 /* .main-content .karir .row{
     padding: 30px;
 } */

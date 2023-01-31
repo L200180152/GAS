@@ -109,7 +109,7 @@
                     <h3>Temukan Karier Impianmu</h3>
                     <p>Mari bergabung bersama kami. Jadilah bagian dari kami dan kembangkan bakat, kreatifmu di GAS</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4" style="margin-bottom: 100px;">
                     <div class="content-karir d-flex">
                         <img src="{{ asset('img/karir1.png') }}" style="max-height: 86px">
                         <div class="row text-karir">
@@ -117,6 +117,33 @@
                             <p>Merancang strategi komunikasi pemasaran mulai dari branding, iklan dan pemasaran
                                 langsung.
                             </p>
+                            <button class="tombol-biru" data-bs-toggle="modal"
+                                data-bs-target="#karir1">Selengkapnya</button>
+                            <div class="modal fade" id="karir1" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Marketing Communication
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="{{ asset('img/karir1.png') }}" style="max-height: 86px">
+                                            <p>
+                                                <li class="text-dark">Pria / Wanita 25-30 tahun.</li>
+                                                <li class="text-dark">Min. S1 Semua Jurusan.</li>
+                                                <li class="text-dark">Berpengalaman sebagai Marcomm Min 3 tahun.</li>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Tutup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="content-karir d-flex">
@@ -126,9 +153,43 @@
                             <p>Menjawab telepon, menanggapi pelanggan melalui email, dan memberikan informasi terkait
                                 layanan.
                             </p>
+                            <button class="tombol-biru" data-bs-toggle="modal"
+                                data-bs-target="#karir2">Selengkapnya</button>
+                            <div class="modal fade" id="karir2" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Marketing Communication
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="{{ asset('img/karir3.png') }}" style="max-height: 86px">
+                                            <p>
+                                                <li class="text-dark">Memiliki Gelar Sarjana di bidang pemasaran,
+                                                    periklanan / media, komunikasi massa dan relevant lainnya.</li>
+                                                <li class="text-dark">Memiliki minimal 2 tahun pengalaman dalam bidang
+                                                    yang sesuai.</li>
+                                                <li class="text-dark">Kemampuan yang harus dimiliki: Digital Marketing,
+                                                    Periklanan, Media Sosial.</li>
+                                                <li class="text-dark">Kritis, Analitis, Kreatif, dan Aktif.</li>
+                                                <li class="text-dark">Keterampilan komunikasi verbal dan tertulis yang
+                                                    sangat baik dalam Bahasa Inggris dan Bahasa Indonesia.</li>
+                                                <li class="text-dark">Usia maksimal 40 tahun.</li>
+                                                <li class="text-dark">Dapat bekerja dibawah tekanan dan mandiri.</li>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Tutup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    {{-- <button class="tombol-biru">Selengkapnya</button> --}}
                     <div class="content-karir d-flex">
                         <img src="{{ asset('img/karir5.png') }}" style="max-height: 86px">
                         <div class="row text-karir">
@@ -136,6 +197,37 @@
                             <p>Membuat arsip data perusahaan, mengatur agenda kantor, dan menyusun laporan keuangan
                                 perusahaan.
                             </p>
+                            <button class="tombol-biru" data-bs-toggle="modal"
+                                data-bs-target="#karir3">Selengkapnya</button>
+                            <div class="modal fade" id="karir3" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Marketing Communication
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="{{ asset('img/karir5.png') }}" style="max-height: 86px">
+                                            <p>
+                                                <li class="text-dark">Usia maksimal 24 tahun.</li>
+                                                <li class="text-dark">Pendidikan minimal D3/S1 semua jurusan.</li>
+                                                <li class="text-dark">Terbiasa bekerja dengan target.</li>
+                                                <li class="text-dark">Komunikatif dan interaktif.</li>
+                                                <li class="text-dark">Berpenampilan rapi dan menarik.</li>
+                                                <li class="text-dark">Memiliki kualitas suara yang baik.</li>
+                                                <li class="text-dark">Mampu mengoperasikan MS. Office.</li>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Tutup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -146,6 +238,53 @@
                             <h6>Content Writer</h6>
                             <p>Membuat dan mengelola konten web atau artikel yang dapat membangun branding perusahaan.
                             </p>
+                            <button class="tombol-biru" data-bs-toggle="modal"
+                                data-bs-target="#karir4">Selengkapnya</button>
+                            <div class="modal fade" id="karir4" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Marketing Communication
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="{{ asset('img/karir2.png') }}" style="max-height: 86px">
+                                            <p>
+                                                <li class="text-dark">Kandidat harus memiliki setidaknya Diploma, Gelar
+                                                    Sarjana di Jurnalisme atau setara.</li>
+                                                <li class="text-dark">Setidaknya memiliki 1 tahun pengalaman dalam
+                                                    bidang yang sesuai untuk posisi ini.</li>
+                                                <li class="text-dark">Lebih disukai Pegawai (non-manajemen &
+                                                    non-supervisor) khusus dalam Jurnalis/Editor atau setara.</li>
+                                                <li class="text-dark">Menulis, menganalisis, dan melaporkan suatu
+                                                    peristiwa secara teratur.
+                                                </li>
+                                                <li class="text-dark">Memeriksa keautentikan suatu informasi yang akan
+                                                    disampaikan.</li>
+                                                <li class="text-dark">Melakukan wawancara kepada narasumber demi
+                                                    memperoleh informasi akurat untuk disampaikan ke publik.</li>
+                                                <li class="text-dark">Memiliki kemampuan atau pengalaman script writer.
+                                                </li>
+                                                <li class="text-dark">
+                                                <li class="text-dark">Memiliki kemampuan atau pengalaman script writer.
+                                                </li>
+                                                </li>
+                                                <li class="text-dark">Melampirkan portfolio berupa artikel liputan yang
+                                                    pernah dibuat.</li>
+                                                <li class="text-dark">Melampirkan portfolio berupa photo atau video
+                                                    dokumentasi ketika meliput suatu peristiwa.</li>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Tutup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="content-karir d-flex">
@@ -155,35 +294,84 @@
                             <p>Pengalaman mengembangkan aplikasi IOS (minimal 4 aplikasi dipublikasikan). Akrab dengan
                                 platform Swift atau Hybrid.
                             </p>
+                            <button class="tombol-biru" data-bs-toggle="modal"
+                                data-bs-target="#karir5">Selengkapnya</button>
+                            <div class="modal fade" id="karir5" tabindex="-1"
+                                aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Marketing Communication
+                                            </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <img src="{{ asset('img/karir4.png') }}" style="max-height: 86px">
+                                            <p>
+                                                <li class="text-dark">Pengalaman kerja dalam pengembangan iOS.</li>
+                                                <li class="text-dark">
+                                                <li class="text-dark">Pengalaman kerja dalam pengembangan iOS.</li>
+                                                </li>
+                                                <li class="text-dark">Pengalaman bekerja dengan kerangka kerja iOS
+                                                    seperti Data Inti, Animasi Inti, Grafik Inti, dan Teks Inti.</li>
+                                                <li class="text-dark">Pengalaman dengan pustaka dan API pihak ketiga.
+                                                </li>
+                                            </p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Tutup</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <div class="footer">
-            <div class="row">
-                <div class="logo">
+            <div class="content-footer">
+                <div class="logo me-4">
                     <img src="{{ asset('/img/logo Gas.png') }}" style="max-height: 100px">
                 </div>
                 <div class="tentang-footer">
-                    <h6 class="fw-bold">Tentang GAS</h6>
-                    <a href="#">Terms and Conditions</a>
-                    <a href="#">Privacy</a>
+                    <div class="row">
+                        <h6 class="fw-bold">Tentang GAS</h6>
+                        <a href="#">Terms and Conditions</a>
+                        <a href="#">Privacy</a>
+                    </div>
                 </div>
                 <div class="hubungi-kami">
-                    <h6 class="fw-bold">Hubungi Kami</h6>
-                    <a href="#">Kritik dan Saran</a>
+                    <div class="row">
+                        <h6 class="fw-bold">Hubungi Kami</h6>
+                        <a href="#">Kritik dan Saran</a>
+                    </div>
                 </div>
                 <div class="ikuti-kami">
-                    <h6 class="fw-bold">Ikuti Kami</h6>
-                    <a href=""><img src="{{ asset('img/facebook.png') }}" style="max-width: 40px;"></a>
-                    <a href=""><img src="{{ asset('img/instagram.png') }}" style="max-width: 40px;"></a>
-                    <a href=""><img src="{{ asset('img/youtube.png') }}" style="max-width: 40px;"></a>
+                    <div class="row">
+                        <h6 class="fw-bold">Ikuti Kami</h6>
+                        <div class="d-flex">
+                            <a href=""><img src="{{ asset('img/facebook.png') }}"
+                                    style="max-width: 40px;"></a>
+                            <a href=""><img src="{{ asset('img/instagram.png') }}"
+                                    style="max-width: 40px;"></a>
+                            <a href=""><img src="{{ asset('img/youtube.png') }}"
+                                    style="max-width: 40px;"></a>
+                        </div>
+                    </div>
                 </div>
                 <div class="Unduh">
-                    <h6 class="fw-bold">Unduh</h6>
-                    <a href=""><img src="{{ asset('img/playstore.png') }}" style="max-height: 60px;"></a>
-                    <a href=""><img src="{{ asset('img/appstore.png') }}" style="max-height: 60px;"></a>
+                    <div class="row">
+                        <h6 class="fw-bold">Unduh</h6>
+                        <div class="d-flex">
+                            <a href=""><img src="{{ asset('img/playstore.png') }}"
+                                    style="max-height: 60px;"></a>
+                            <a href=""><img src="{{ asset('img/appstore.png') }}"
+                                    style="max-height: 60px;"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
